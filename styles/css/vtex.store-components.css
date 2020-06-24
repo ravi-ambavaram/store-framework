@@ -30,7 +30,7 @@
     background-color: #e1e1e1
 }
 
-.infoCardCallActionContainer :global(.vtex-image) {
+.infoCardImage {
     color: white;
     background-color: white;
     border: transparent;
