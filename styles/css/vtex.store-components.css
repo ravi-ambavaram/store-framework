@@ -12,7 +12,7 @@
 
 .infoCardCallActionContainer :global(.vtex-button) {
     color: white;
-    background-color: white;
+    background-color: grey;
     border: transparent;
 }
 
