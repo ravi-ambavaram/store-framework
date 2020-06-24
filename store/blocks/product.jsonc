@@ -37,21 +37,21 @@
   "flex-layout.col#right": {
     "props": {
       "verticalAlign": "middle",
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
     },
     "children": [
       "product-name",
       "product-identifier.product",
       "product-price",
       "flex-layout.row#qty-sku",
-      "buy-button"
+      "buy-button",
+      "shipping-simulator"
     ]
   },
-  "flex-layout.row#qty-sku": {
+  "flex-layout.row": {
     "children": [
       "sku-selector",
-      "product-quantity",
-      "shipping-simulator"
+      "product-quantity"
     ]
   },
   "product-images": {
