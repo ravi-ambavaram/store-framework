@@ -15,11 +15,6 @@
       "warningQuantityThreshold": 9999999
     }
   },
-  "sku-selector": {
-    "props": {
-      "hideImpossibleCombinations": false
-    }
-  },
   "flex-layout.row#main": { 
     "props": { 
       "marginTop": 6
@@ -44,14 +39,14 @@
       "product-identifier.product",
       "product-price",
       "flex-layout.row#qty-sku",
-      "buy-button",
-      "shipping-simulator"
+      "buy-button"
     ]
   },
-  "flex-layout.row": {
+  "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
-      "product-quantity"
+      "product-quantity",
+      "shipping-simulator"
     ]
   },
   "product-images": {
