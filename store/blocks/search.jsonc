@@ -36,6 +36,11 @@
       "width": 20
     }
   },
+  "flex-layout.col#right": {
+    "children": [
+      "search-content"
+    ]
+  },
   "flex-layout.col#search": {
     "children": [
       "filter-navigator.v3"
