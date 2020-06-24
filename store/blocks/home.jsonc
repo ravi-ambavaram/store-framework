@@ -49,7 +49,7 @@
       "callToActionMode": "Go to Collection",
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
-      "textAlignment": "lext"
+      "textAlignment": "left"
     }
   }
 }
